@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>Schedule: 01/10 ~ 10/10</p>
+    <p>Rooms: Room 1 ~ room 5</p>
+    <ul>
+        <ol>Ho va Ten1: 28/09 ~ 05/10 | Room 2</ol>
+        <ol>Ho va Ten1.1: 07/10 ~ 09/10 | Room 2</ol>
+        <ol>Ho va Ten2: 03/10 ~ 07/10 | Room 3</ol>
+        <ol>Ho va Ten3: 07/10 ~ 12/10 | Room 5</ol>
+    </ul>
+    <div class="flex flex-row justify-start">
+        <div>
+            <div class="grid grid-cols-1" style="grid-template-rows: repeat(5, minmax(0, 1fr));">
+                <div class="border-black border text-center bg-black"></div>
+                <div class="border-black border text-center bg-gray-400 font-bold">Room #01</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">Room #02</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">Room #03</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">Room #04</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">Room #05</div>
+            </div>
+        </div>
+        <div>
+            <div class="grid grid-rows-1" style="grid-template-columns: repeat(10, minmax(0, 1fr));">
+                <div class="border-black border text-center bg-gray-400 font-bold">01</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">02</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">03</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">04</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">05</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">06</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">07</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">08</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">09</div>
+                <div class="border-black border text-center bg-gray-400 font-bold">10</div>
+            </div>
+            <div class="grid grid-rows-1" style="grid-template-columns: repeat(10, minmax(0, 1fr));">
+                <div class="border-black border text-center">&nbsp;</div>
+                <div class="border-black border text-center">&nbsp;</div>
+                <div class="border-black border text-center">&nbsp;</div>
+                <div class="border-black border text-center">&nbsp;</div>
+                <div class="border-black border text-center">&nbsp;</div>
+                <div class="border-black border text-center">&nbsp;</div>
+                <div class="border-black border text-center">&nbsp;</div>
+                <div class="border-black border text-center">&nbsp;</div>
+                <div class="border-black border text-center">&nbsp;</div>
+                <div class="border-black border text-center">&nbsp;</div>
+                <!-- <div class="border-black border bg-orange-400 col-span-2" style="z-index: 1">
+                    Ho va Ten1
+                </div> -->
+                <div class="border-black border bg-green-400 col-span-3" style="z-index: 1">
+                    Ho va Ten1.1
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br>
+    <div class="grid grid-cols-1" style="grid-template-rows: repeat(5, minmax(0, 1fr));">
+        <div class="border-black border text-center bg-black"></div>
+        <div class="border-black border text-center bg-gray-400 font-bold">Room #01</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">Room #02</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">Room #03</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">Room #04</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">Room #05</div>
+    </div>
+    <div class="grid grid-rows-1" style="grid-template-columns: repeat(11, minmax(0, 1fr));">
+        <div class="border-black border text-center bg-black"></div>
+        <div class="border-black border text-center bg-gray-400 font-bold">01</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">02</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">03</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">04</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">05</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">06</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">07</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">08</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">09</div>
+        <div class="border-black border text-center bg-gray-400 font-bold">10</div>
+    </div>
+    <div class="grid grid-rows-1" style="grid-template-columns: repeat(11, minmax(0, 1fr));">
+        <div class="border-black border text-center bg-gray-400 font-bold">Room #01</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <!-- <div class="border-black border bg-orange-400 col-span-2" style="z-index: 1">
+            Ho va Ten1
+        </div> -->
+        <div class="border-black border bg-green-400 col-span-3" style="z-index: 1">
+            Ho va Ten1.1
+        </div>
+    </div>
+    <div class="grid grid-rows-1" style="grid-template-columns: repeat(11, minmax(0, 1fr));">
+        <div class="border-black border text-center bg-gray-400 font-bold">Room #02</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+    </div>
+    <div class="grid grid-rows-1" style="grid-template-columns: repeat(11, minmax(0, 1fr));">
+        <div class="border-black border text-center bg-gray-400 font-bold">Room #03</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+    </div>
+    <div class="grid grid-rows-1" style="grid-template-columns: repeat(11, minmax(0, 1fr));">
+        <div class="border-black border text-center bg-gray-400 font-bold">Room #04</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+    </div>
+    <div class="grid grid-rows-1" style="grid-template-columns: repeat(11, minmax(0, 1fr));">
+        <div class="border-black border text-center bg-gray-400 font-bold">Room #05</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+        <div class="border-black border text-center">&nbsp;</div>
+    </div>
+</body>
+</html>
